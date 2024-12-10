@@ -39,6 +39,7 @@ ul li {
 #info_col h3 {
   border-bottom: 1px solid #d6d6d6;
   padding: 10px 0px;
+  margin-top: 0; 
   margin-bottom: 10px; 
 }
 
@@ -52,7 +53,6 @@ ul li {
 #main_col h3 {
   border-bottom: 1px solid #d6d6d6;
   padding: 5px 0;
-  margin: 0 0 10px 0;
 }
 
 #main_col h4 {
@@ -69,8 +69,8 @@ ul li {
 }
 
 #skills p {
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .date_col {
