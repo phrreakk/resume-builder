@@ -33,10 +33,10 @@ with open(r'resume.yaml') as file:
     options = {
       "enable-local-file-access": None,
       "page-size": "Letter",
-      "margin-top": "10",
-      "margin-right": "10",
-      "margin-bottom": "10",
-      "margin-left": "10",
+      "margin-top": "5",
+      "margin-right": "5",
+      "margin-bottom": "5",
+      "margin-left": "5",
       "encoding": "UTF-8"
     }
 

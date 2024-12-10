@@ -34,15 +34,29 @@
           </div>
           {%- endfor %}
         </section>
+        <section id="education">
+          <h3>Education</h3>
+          {%- for item in education %}
+          <div class="row">
+            <div>
+              <h4>{{ item["institution"] }}</h4>
+              <p>{{ item["degree"] }}</p>
+            </div>
+          </div>
+          {%- endfor %}
+        </section>
       </div>
       <div id="main_col">
         <section>
           <h3>About</h3>
+          {%- for title, responsibilities in intro.items() %}
+          <h4>{{ title }}</h4>
           <ul>
-          {%- for value in intro %}
+          {%- for value in responsibilities %}
             <li>{{ value }}</li>
           {%- endfor %}
           </ul>
+          {%- endfor %}
         </section>
         <section>
           <h3>Experience</h3>
@@ -53,25 +67,14 @@
               <p class="to">{{ item["to"] }}</p>
             </aside>
             <div>
-              <h4>{{ item["company"] }}</h4>
-              <p><em>{{ item["title"] }}</em></p>
+              <h4 class="company">{{ item["company"] }}</h4>
+              <p class="position"> - <em>{{ item["title"] }}</em></p>
               <p>{{ item["blurb"] }}</p>
               <ul>
                 {%- for value in item["accomplishments"] %}
                 <li>{{ value }}</li>
                 {%- endfor %}
               </ul>
-            </div>
-          </div>
-          {%- endfor %}
-        </section>
-        <section>
-          <h3>Education</h3>
-          {%- for item in education %}
-          <div class="row">
-            <div>
-              <h4>{{ item["institution"] }}</h4>
-              <p>{{ item["degree"] }}</p>
             </div>
           </div>
           {%- endfor %}

@@ -1,6 +1,6 @@
 ---
 name: Chris Jones
-title: Principal Architect
+title: Principal Architect<br>DevOps Engineer<br>Systems Engineer
 info:
   location: Brooklyn, NY
   phone: 407-536-7308
@@ -27,14 +27,21 @@ skills:
   Google Workspace: 100
   Microsoft Intune: 80
 intro:
-  - Principal Architect with background in multiple overlapping careers including systems engineering, DevOps Engineering, and IT Support management.
-  - Has extensive experience in building and maintaining enterprise scale on-prem and cloud environments.
-  - Has extensive experience in building CI/CD driven microservice based architectures.
-  - Has extensive experience with many Linux distributions.
-  - Skilled in the setup and maintenance of highly available and redundant systems.
+  Principal Architect:
+  - Experienced Principal Architect capable of leading the design an implementation of complex on-prem and cloud based systems.
+  - Possesses an extensive background in multiple overlapping careers including systems engineering, DevOps Engineering, Systems Engineering, and IT Support management.
+  - Possesses strong leadership and mentorship skills and can provide a culture of excellence and continuous improvement.
+  - Has excellent communication skills with both technical and non-technical stakeholders.
+  - In-depth knowledge of software design patterns, architectural styles (e.g., microservices, event-driven, serverless architecture, various CI/CD tools), and other emerging technologies
+  DevOps and Platform Engineer:
+  - Expert in building CI/CD driven microservice based architectures.
   - Experienced in systems integration in order to create the best possible foundation for any given project.
   - Experienced in working with and supporting developers in order to see projects through to completion and continued development.
-  - Very adept at researching, troubleshooting, identifying, and ultimately fixing problems.
+  - Adept and creating and implementing tooling for developers to guarantee that they have the smoothest path from coding to production deployment.
+  Systems Engineer:
+  - Has extensive experience in building and maintaining enterprise scale on-prem and cloud environments.
+  - Highly experienced with many Linux distributions.
+  - Skilled in the setup and maintenance of highly available and redundant systems.
 experience:
   - company: Quartet Health
     from: 05-2021
@@ -58,7 +65,7 @@ experience:
       - Maintained a remote IT support fleet for over 400 remote workers.
       - Took over and rebuilt the IT support department. Discovered and shut down a laptop theft ring within the company.
       - Migrated the IT Support team's Apple MDM solution from Jamf to Kandji.
-      - Migrated the IT Support teams's Windows MDM solution from ConnectWise to Microsoft Intune.
+      - Migrated the IT Support teams' Windows MDM solution from ConnectWise to Microsoft Intune.
       - Managed Quartet's Google Workspace environment.
       - Managed Quartet's O365 environment after the migration from Google Workspace.
       - Managed and maintained Quartet's self-hosted Github Enterprise Environment.
@@ -100,19 +107,6 @@ experience:
       - Implemented CI/CD pipelines to test and automate other processes wherever possible
       - Migrated their deployments from ECS to Kubernetes
       - Became DevOps lead by default and rose to the increase in responsibilities
-  - company: Digarc
-    from: 03-2016
-    to: 01-2018
-    title: Senior Linux Systems Engineer
-    blurb: Administrator for high traffic college catalog websites consisting of a few hundred servers. Closely worked with and supported the needs of developers.
-    accomplishments:
-      - Was made lead systems manager with and put in charge of managing a team of admins
-      - Managed and improved upon their existing AWS stack
-      - Managed and improved upon their existing Chef environment
-      - Led an effort to transition to Docker containers wherever possible
-      - Led an effort to migrate more of their legacy infrastructure to AWS specific services
-      - Automated the creation of vagrant boxes for developers via continuous integration
-      - Automated various long and manual workflows
 education:
   - institution: University of Central Florida
     degree: Bachelor's in Digital Media
