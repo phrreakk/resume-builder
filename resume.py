@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+import sys
 import yaml
 import pdfkit
 from jinja2 import Environment, FileSystemLoader
@@ -10,8 +11,10 @@ env = Environment(
 )
 
 template = env.get_template('resume.html.j2')
+resume_yaml = sys.argv[1]
+print(yaml)
 
-with open(r'resume.yaml') as file:
+with open(resume_yaml, 'r') as file:
     resume = yaml.load(file, Loader=yaml.FullLoader)
 
     name = resume["name"]
@@ -33,10 +36,10 @@ with open(r'resume.yaml') as file:
     options = {
       "enable-local-file-access": None,
       "page-size": "Letter",
-      "margin-top": "5",
-      "margin-right": "5",
-      "margin-bottom": "5",
-      "margin-left": "5",
+      "margin-top": "2",
+      "margin-right": "2",
+      "margin-bottom": "2",
+      "margin-left": "2",
       "encoding": "UTF-8"
     }
 

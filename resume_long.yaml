@@ -1,0 +1,198 @@
+---
+name: Chris Jones
+title: Principal Architect<br>DevOps Engineer<br>Systems Engineer
+info:
+  location: Brooklyn, NY
+  phone: 407-536-7308
+  email: chris.jones@pipetogrep.org
+  linkedin: https://linkedin.com/in/pipetogrep
+skills:
+  Linux: 100
+  macOS: 100
+  Windows: 70
+  AWS: 100
+  GCP: 40
+  CloudFormation: 100
+  Terraform: 100
+  Docker: 100
+  ECS/Fargate: 90
+  Kubernetes: 90
+  Helm: 90
+  CI/CD: 80
+  AWS Lambda: 60
+  BASH: 100
+  Python: 60
+  JavaScript: 50
+  PowerShell: 20
+  Jamf: 100
+  Kandji: 100
+  Microsoft Intune: 80
+  Active Directory: 60
+  Google Workspace: 100
+
+intro:
+  Principal Architect:
+  - Experienced Principal Architect capable of leading the design an implementation of complex on-prem and cloud based systems.
+  - Possesses an extensive background in multiple overlapping careers including systems engineering, DevOps Engineering, Systems Engineering, and IT Support management.
+  - Possesses strong leadership and mentorship skills and can provide a culture of excellence and continuous improvement.
+  - Has excellent communication skills with both technical and non-technical stakeholders.
+  - In-depth knowledge of software design patterns, architectural styles (e.g., microservices, event-driven, serverless architecture, various CI/CD tools), and other emerging technologies
+  DevOps and Platform Engineer:
+  - Expert in building CI/CD driven microservice based architectures.
+  - Experienced in systems integration in order to create the best possible foundation for any given project.
+  - Experienced in working with and supporting developers in order to see projects through to completion and continued development.
+  - Adept and creating and implementing tooling for developers to guarantee that they have the smoothest path from coding to production deployment.
+  Systems Engineer:
+  - Has extensive experience in building and maintaining enterprise scale on-prem and cloud environments.
+  - Highly experienced with many Linux distributions.
+  - Skilled in the setup and maintenance of highly available and redundant systems.
+  IT Support Manager:
+  - Has experience at managing, supporting, and optimizing IT departments to operate at peak efficiency.
+  - Very experienced in desktop environments for all major operating systems macOS, iOS, Windows, and Linux.
+  - Well versed in Jamf, Kandji, Microsoft Intune, and Connectwise.
+  - Brings an engineering mindset to IT support that allows for better troubleshooting and problem solving.
+experience:
+  - company: Quartet Health
+    from: 05-2021
+    to: present
+    title: Principal Architect
+    blurb: Quartet Health is a company that tries to make getting access to mental health care easier. I started as a DevOps engineer but grew into the role of Principal Architect. That role had me involved in DevOps, systems engineering and administration, IT, and security.
+    accomplishments:
+      - Managed and maintained Quartet Health's diverse AWS and containerized (Fargate and Kubernetes) environments.
+      - Migrated Quartet's services to EKS that were previously hosted directly on EC2.
+      - Migrated Quartet's services from EKS to Fargate upon realizing that Kubernetes was a bad choice for their infrastructure.
+      - Migrated Quartet's aged self-hosted SFTP server setup from a single server to AWS Transfer Family. This resulted in an increase in security for our clients and a reduction in maintenance complexity.
+      - Implemented Atlantis for handling Terraform via GitOps.
+      - Created a custom built VPN solution around OpenVPN CE and OneLogin, then later Okta. The result significantly reduced the complexity and cost of the company's VPN setup.
+      - Fully built and automated an Informatica environment via Terraform.
+      - Provided guidance and mentorship for all engineers on best practices regarding AWS, CI/CD methodoligies
+      - Significantly reduced Quartet's AWS costs.
+      - Nurtured and maintained a healthy DevOps based culture that allowed the dev and infra teams to work well together.
+      - Worked hand-in-hand with the security team to ensure HIPAA and SOC2 compliance for our entire infrastructure.
+      - Deployed Darktrace across our entire IT infrastructure (Cloud and individual laptops) for security monitoring purposes.
+      - Deployed Rapid7 across our entire IT infrastructure (Cloud and individual laptops) for security monitoring purposes.
+      - Maintained a remote IT support fleet for over 400 remote workers.
+      - Took over and rebuilt the IT support department. Discovered and shut down a laptop theft ring within the company.
+      - Migrated the IT Support team's Apple MDM solution from Jamf to Kandji.
+      - Migrated the IT Support teams' Windows MDM solution from ConnectWise to Microsoft Intune.
+      - Greatly improved Quartet's IT security posture where it was previously lacking.
+      - Managed Quartet's Google Workspace environment.
+      - Managed Quartet's O365 environment after the migration from Google Workspace.
+      - Managed and maintained Quartet's self-hosted Github Enterprise Environment.
+      - Significantly improved the IT department's overall security posture by fully automating updates for all user control machines.
+      - Implemented Okta as the company's new SSO platform.
+      - Taught and mentored in the ways for DevOps, systems engineering, security, and IT management. Quartet truly utilized all of my abilities. 
+      - Optimized the entire IT support workflow from users requesting help with issues to those problems getting solved into a faster and more efficient workflow.
+      - Deployed company device asset tracking where they previously had none.
+  - company: Voice.com
+    from: 09-2020
+    to: 05-2021
+    title: DevOps Engineer
+    blurb: DevOps engineer for Voice.com, a social network built on the EOSIO blockchain.
+    accomplishments:
+      - Managed and maintained Voice's GCP and Kubernetes environments.
+      - Became familiar with blockchain technology. Specifically the EOSIO blockchain framework.
+      - Was instrumental in streamlining a massive lift-and-shift migration from Block.one's infrastructure to Voice's. Migrated services included multiple Kubernetes clusters, over 200 GitHub repositories, PostgreSQL databases, CI/CD pipelines, and DNS records, and NPM packages.
+      - Streamlined their CloudFlare and PagerDuty accounts by managing them via Terraform and buildkite.
+      - Became their go-to resource for tricky Terraform and Bash related issues.
+  - company: AiCure
+    from: 08-2019
+    to: 09-2020
+    title: DevOps Engineer
+    blurb: DevOps engineer for AiCure, creators of a machine learning based mobile app that assists patients in clinical trials.
+    accomplishments:
+      - Overhauled AiCure's code deployment process to make it a true CI/CD process
+      - Made AiCure's existing services more resilient by implementing optimizations like container autoscaling
+      - Made use of Lambda functions to reduce cost and make management of infrastructure easier to maintain
+  - company: Univision
+    from: 08-2018
+    to: 08-2019
+    title: DevOps Engineer
+    blurb: DevOps engineer for most of Univision's online presence
+    accomplishments:
+      - Built custom tooling to automate and provide accountability for the entirety of Univision's and Gizmodo Media Group's DNS infrastructure
+      - Containerized and automated of Univision's Jenkins environment
+      - Rebuilt Univision's AWS environment entirely in CloudFormation
+      - Brought visibility to cost of operation of all Univision AWS accounts via CloudHealth
+      - Implemented CI/CD pipelines to test and automate other processes wherever possible
+      - Migrated their deployments from ECS to Kubernetes
+      - Became DevOps lead by default and rose to the increase in responsibilities
+  - company: Digarc
+    from: 03-2016
+    to: 01-2018
+    title: Senior Linux Systems Engineer
+    blurb: Administrator for high traffic college catalog websites consisting of a few hundred servers. Closely worked with and supported the needs of developers.
+    accomplishments:
+      - Was made lead systems manager with and put in charge of managing a team of admins.
+      - Managed and improved upon their existing AWS stack.
+      - Managed and improved upon their existing Chef environment.
+      - Led an effort to transition to Docker containers wherever possible.
+      - Led an effort to migrate more of their legacy infrastructure to AWS specific services.
+      - Automated the creation of vagrant boxes for developers via continuous integration.
+      - Automated various long and manual workflows.
+  - company: BookIt.com
+    from: 06-2013
+    to: 10-2015
+    title: Linux Systems Engineer
+    blurb: Administrator for high traffic travel website consisting of over 250 servers. Closely worked with and supported the needs of developers.
+    accomplishments:
+      - Deployed SaltStack to configure and effortlessly manage new and existing servers. This reduced new setup times for new servers to half an hour.
+      - Contributed to the SaltStack project fixing bugs in the MySQL module.
+      - Wrote a SaltStack based template system for managing thousands of MySQL credentials.
+      - Had formulas for users and grains management accepted into the public SaltStack formula repository.
+      - Reduced the time a MySQL slave rebuild takes from a whole day to a few hours.
+      - Learned how to use Zabbix at a much larger scale.
+      - Learned how to work with MySQL replication.
+      - Made developers' lives easier by managing their sandbox VMs through Vagrant.
+      - Deployed the ELK Stack (Elasticsearch, Logstash, Kibana) to greatly simplify and make sense of logging data.
+      - Facilitated the move to a virtualized environment with Red Hat Enterprise Virtualization.
+      - Set up, configured, and provided troubleshooting for a Dell Compellent 80 terabyte storage array attached via multipath iSCSI. It was the storage backing for the Red Hat Enterprise Virtualization.
+  - company: StackFrame, LLC
+    from: 11-2010
+    to: 07-2013
+    title: Linux System Administrator
+    blurb: Providing IT support for DoD contractors and commercial clients with a mix of Windows and Linux servers.
+    accomplishments:
+      - Set up monitoring for over 50 servers with Zabbix.
+      - Streamlined client's in-house IT support process for 5 servers and 30 workstations.
+      - Solved internal mail related problems by setting up DKIM and SPF for StackFrame.
+      - Acquired Security+ certification with this employer.
+  - company: Caring Compy
+    from: 03-2009
+    to: 01-2012
+    title: President/CTO
+    blurb: A non-profit that donated refurbished Linux PCs to those in need.
+    accomplishments:
+      - Set up 4 public web terminals for the Ronald McDonald house of Orlando.
+      - Gave LTSP setup to the Hope For All day care center for abused children in Orlando, FL.
+      - Gave individual desktops to 3 families as well as provided them with training and support.
+  - company: HTH Inc.
+    from: 01-2009
+    to: 11-2010
+    title: System Administrator
+    blurb: Provided in-house support for servers, workstations, and web server.
+    accomplishments:
+      - Set up and continue to manage a Linux VPS for their website.
+      - Recovered from 3 server hardware failures with no data loss and minimal down time.
+      - Gained invaluable experience in the management of Windows based small business servers.
+      - Implemented automated local and off-site server backups.
+      - Repair and maintenance of network client computers.
+      - Successfully deployed office wide server managed anti-virus software.
+      - Facilitated better interoffice communication by deployment of local Jabber server.
+      - Implemented disaster recover plans for the server and all workstations.
+      - Implemented secure remote access to network for offsite interaction and system repair.
+      - Reduced company expenses through the use of open source software.
+      - Provided training for coworkers in the operation of company client computers along with safe web browsing and email practices.
+      - Switched many coworkers personally owned computers to Linux operating systems as well as provided initial training with its use.
+  - company: Various Companies
+    from: 12-2002
+    to: 11-2010
+    title: Web Developer
+    blurb: Worked 8 years as a web developer for various companies.
+    accomplishments:
+      - The details of these positions have been omitted due to a career change to system administration as they favor too heavily in LinkedIn keyword searches.
+education:
+  - institution: University of Central Florida
+    degree: Bachelor's in Digital Media
+  - institution: Central Florida Community College
+    degree: Associate's Degree
