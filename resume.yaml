@@ -31,13 +31,11 @@ skills:
   Hadoop: 30
   Hashicorp Vault: 30
   Hadoop: 30
-
 education:
   - institution: ITT Technical Institute
     degree: Associate's in Computer Networking Systems
   - institution: Harvard.edu Online
     degree: CS50x Certificate
-
 intro:
   # Principal Architect:
   # - Experienced Principal Architect capable of leading the design an implementation of complex on-prem and cloud based systems.
@@ -125,4 +123,3 @@ experience:
       - Implemented CI/CD pipelines to test and automate other processes wherever possible
       - Migrated their deployments from ECS to Kubernetes
       - Became DevOps lead by default and rose to the increase in responsibilities
-
