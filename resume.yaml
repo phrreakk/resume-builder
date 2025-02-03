@@ -37,8 +37,8 @@ certifications:
 #   - name: GCP 2
 #     status: expired January 2027
 honors:
-  - name: AWS 1
-    location: expires June 2023
+  # - name: AWS 1
+  #   location: expires June 2023
 #   - name: GCP 2
 #     location: expired January 2027
 education:
