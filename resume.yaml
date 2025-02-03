@@ -16,7 +16,9 @@ skills:
   Terraform: 20
   Docker: 80
   Kubernetes: 50
-  Helm: 90
+  Helm: 25
+  git: 75
+  TCP/IP: 100
   CI/CD: 60
   Jenkins: 50
   CodeDeploy: 30
@@ -30,17 +32,25 @@ skills:
   MySQL: 50
   Hadoop: 30
   Hashicorp Vault: 30
-  Hadoop: 30
+  Zabbix: 20
 certifications:
-  - name: AWS 1
-    status: expires June 2023
-#   - name: GCP 2
-#     status: expired January 2027
+  - name: CompTIA Security+ CE
+    status: active until May 2027
+  - name: ISC2 Certified in Cybersecurity
+    status: active until March 2027
+  - name: Google Cybersecurity
+    status: active April 2024
+  - name: AWS Certified Solutions Architect - Associate
+    status: expired June 2024
+  - name: AWS Certified SysOps Administrator
+    status: expired November 2023
+  - name: Hadoop administrator CDH 3
+    status: expired
 honors:
-  # - name: AWS 1
-  #   location: expires June 2023
-#   - name: GCP 2
-#     location: expired January 2027
+  - name: Active security clearance
+    location: Department of Treasury
+  - name: 3 Hero awards received
+    location: Vlingo
 education:
   - institution: ITT Technical Institute
     degree: Associate's in Computer Networking Systems
