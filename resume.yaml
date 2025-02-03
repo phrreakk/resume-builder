@@ -31,6 +31,16 @@ skills:
   Hadoop: 30
   Hashicorp Vault: 30
   Hadoop: 30
+certifications:
+  - name: AWS 1
+    status: expires June 2023
+#   - name: GCP 2
+#     status: expired January 2027
+honors:
+  - name: AWS 1
+    location: expires June 2023
+#   - name: GCP 2
+#     location: expired January 2027
 education:
   - institution: ITT Technical Institute
     degree: Associate's in Computer Networking Systems
