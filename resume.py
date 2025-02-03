@@ -5,6 +5,8 @@ import yaml
 import pdfkit
 from jinja2 import Environment, FileSystemLoader
 from math import floor
+from os import listdir
+from os.path import isfile, join
 
 env = Environment(
     loader=FileSystemLoader('./'),
@@ -15,8 +17,13 @@ if len(sys.argv) > 1:
     resume_yaml = sys.argv[1]
 else:
     resume_yaml = "resume.yaml"
+
 # What is yaml?
 # print(yaml)
+
+cssFiles = []
+for css in listdir("./styles"):
+    cssFiles.append("./styles/" + css)
 
 with open(resume_yaml, 'r') as file:
     resume = yaml.load(file, Loader=yaml.FullLoader)
@@ -39,7 +46,8 @@ with open(resume_yaml, 'r') as file:
                            experience = experience,
                            education = education,
                            certifications = certifications,
-                           honors = honors)
+                           honors = honors,
+                           cssFiles = cssFiles)
 
     options = {
       "enable-local-file-access": None,
