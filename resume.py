@@ -58,4 +58,4 @@ with open(resume_yaml, 'r') as file:
     with open('resume.html', 'w') as f:
         f.write(html)
 
-    pdfkit.from_string(html, "resume.pdf", options=options)
+    pdfkit.from_string(html, "resume.pdf", options=options, css=cssFiles)
