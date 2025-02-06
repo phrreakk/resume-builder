@@ -28,6 +28,8 @@ with open(resume_yaml, 'r') as file:
     intro = resume["intro"]
     experience = resume["experience"]
     education = resume["education"]
+    certifications = resume["certifications"]
+    honors = resume["honors"]
 
     html = template.render(name = name,
                            title = title,
@@ -35,7 +37,9 @@ with open(resume_yaml, 'r') as file:
                            skills = skills,
                            intro = intro,
                            experience = experience,
-                           education = education)
+                           education = education,
+                           certifications = certifications,
+                           honors = honors)
 
     options = {
       "enable-local-file-access": None,
