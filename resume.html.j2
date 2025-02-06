@@ -36,6 +36,32 @@
           </div>
           {%- endfor %}
         </section>
+        {%- if certifications %}
+        <section id="certifications">
+          <h3>Certifications</h3>
+          {%- for item in certifications %}
+          <div class="row">
+            <div>
+              <h4>{{ item["name"] }}</h4>
+              <p>{{ item["status"] }}</p>
+            </div>
+          </div>
+          {%- endfor %}
+        </section>
+        {%- endif %}
+        {%- if honors %}
+        <section id="honors">
+          <h3>Honors</h3>
+          {%- for item in honors %}
+          <div class="row">
+            <div>
+              <h4>{{ item["name"] }}</h4>
+              <p>{{ item["location"] }}</p>
+            </div>
+          </div>
+          {%- endfor %}
+        </section>
+        {%- endif %}
         <section id="education">
           <h3>Education</h3>
           {%- for item in education %}
