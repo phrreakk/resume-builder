@@ -6,7 +6,6 @@ import pdfkit
 from jinja2 import Environment, FileSystemLoader
 from math import floor
 from os import listdir
-from os.path import isfile, join
 
 env = Environment(
     loader=FileSystemLoader('./'),
