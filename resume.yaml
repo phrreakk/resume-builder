@@ -29,12 +29,7 @@ skills:
   Microsoft Intune: 80
   Active Directory: 60
   Google Workspace: 100
-certifications:
-  # - name: AWS 1
-  #   status: Expired January 2025
-honors:
-  # - name: Honor 1
-  #   location: Company 1
+
 intro:
   Principal Architect:
   - Experienced Principal Architect capable of leading the design an implementation of complex on-prem and cloud based systems.
