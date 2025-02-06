@@ -18,9 +18,6 @@ if len(sys.argv) > 1:
 else:
     resume_yaml = "resume.yaml"
 
-# What is yaml?
-# print(yaml)
-
 cssFiles = []
 for css in listdir("./styles"):
     cssFiles.append("./styles/" + css)
