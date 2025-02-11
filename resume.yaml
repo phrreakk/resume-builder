@@ -57,12 +57,6 @@ education:
   - institution: Harvard.edu Online
     degree: CS50x Certificate
 intro:
-  # Principal Architect:
-  # - Experienced Principal Architect capable of leading the design an implementation of complex on-prem and cloud based systems.
-  # - Possesses an extensive background in multiple overlapping careers including systems engineering, DevOps Engineering, Systems Engineering, and IT Support management.
-  # - Possesses strong leadership and mentorship skills and can provide a culture of excellence and continuous improvement.
-  # - Has excellent communication skills with both technical and non-technical stakeholders.
-  # - In-depth knowledge of software design patterns, architectural styles (e.g., microservices, event-driven, serverless architecture, various CI/CD tools), and other emerging technologies
   DevOps and Platform Engineer:
   - Expert in building CI/CD driven microservice based architectures.
   - Experienced in systems integration in order to create the best possible foundation for any given project.
@@ -72,11 +66,6 @@ intro:
   - Extensive experience in building and maintaining enterprise scale on-prem and cloud environments.
   - Highly experienced with many Linux distributions.
   - Skilled in the setup and maintenance of highly available and redundant systems.
-  # IT Support Manager:
-  # - Has experience at managing, supporting, and optimizing IT departments to operate at peak efficiency.
-  # - Very experienced in desktop environments for all major operating systems macOS, iOS, Windows, and Linux.
-  # - Well versed in Jamf, Kandji, Microsoft Intune, and Connectwise.
-  # - Brings an engineering mindset to IT support that allows for better troubleshooting and problem solving.
 experience:
   - company: Deloitte
     from: 10-2020
@@ -103,7 +92,7 @@ experience:
       - Launched Openshift 4.1 cluster for build team CI/CD processing using Ansible and Cobbler to bootstrap nodes on RHEV cluster.
       - Designed and implemented business services and servers migration of a TCP/IP network to another floor of the same building.  This process required using different Fortinet firewalls and switches from the original location. 
       - Created Vault environment using Ansible playbooks for storing secrets, PKI/CA, dynamic AWS IAM user/role creation, and AppRole use cases.
-      - Designed and implemented AWS TGW which connected developer environments via Palo Alto firewalls and the BGP networking protocool.  The developer environments were located in FL, MA, CA, Portugal, and multiple AWS accounts.
+      - Designed and implemented AWS TGW which connected developer environments via Palo Alto firewalls and the BGP networking protocol.  The developer environments were located in FL, MA, CA, Portugal, and multiple AWS accounts.
   - company: Travel Media Group
     from: 11-2016
     to: 11-2018
