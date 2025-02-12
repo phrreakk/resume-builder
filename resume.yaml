@@ -6,6 +6,8 @@ info:
   phone: 781-223-8156
   email: kevin.resume@gangi-home.us
   linkedin: https://linkedin.com/in/kevingangi
+  github: https://github.com/phrreakk
+  resume: /resume-builder/resume.pdf
 skills:
   Linux: 100
   Windows: 70
@@ -58,13 +60,12 @@ education:
     degree: CS50x Certificate
 intro:
   DevOps and Platform Engineer:
-  - Expert in building CI/CD driven microservice based architectures.
+  - Keen ability to explain highly complex systems to upper management.
   - Experienced in systems integration in order to create the best possible foundation for any given project.
   - Experienced in working with and supporting developers in order to see projects through to completion and continued development.
-  - Adept at creating and implementing tooling for developers to guarantee that they have the smoothest path from coding to production deployment.
   Linux Systems Administrator:
-  - Extensive experience in building and maintaining enterprise scale on-prem and cloud environments.
-  - Highly experienced with many Linux distributions.
+  - Experienced with using Ansible to configure and secure different Linux distributions.
+  - Experienced in building and maintaining enterprise scale on-prem and cloud environments, understanding the application layer to the system layer to the network layer.
   - Skilled in the setup and maintenance of highly available and redundant systems.
 experience:
   - company: Deloitte
@@ -133,3 +134,8 @@ experience:
       - Wrote and designed F5 iRules to meet business needs after application out grew a single server platform.
       - Implemented Cobbler system to bring Linux systems from bare metal to production ready status in about 15 minutes from six to eight hours.
       - Worked on and designed various network related tasks involving Cisco Nexus 5Ks, FEX, and 3750Gs.
+projects:
+  - link: https://github.com/phrreakk/cybersecurity
+    about: Cyber Security Repository
+  # - link:
+  #   about:
