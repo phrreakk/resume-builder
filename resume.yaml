@@ -1,11 +1,12 @@
 ---
 name: Kevin Gangi
-title: Cloud DevOps Engineer<br>Linux Systems Administrator<br>Systems Engineer
+title: Cloud DevOps Engineer<br>Linux Systems Administrator
 info:
   location: Orlando, FL
   phone: 781-223-8156
   email: kevin.resume@gangi-home.us
   linkedin: https://linkedin.com/in/kevingangi
+  website: https://kevin.gangi-home.us
   github: https://github.com/phrreakk
   resume: /resume-builder/resume.pdf
 skills:
@@ -137,5 +138,5 @@ experience:
 projects:
   - link: https://github.com/phrreakk/cybersecurity
     about: Cyber Security Repository
-  # - link:
-  #   about:
+  - link: Vaultwarden Backup
+    about: https://github.com/phrreakk/vwbackup
