@@ -72,7 +72,7 @@ experience:
     from: 06-2023
     to: 01-2024
     title: Dog Trainer
-    blurb: Petsmart is a leading retailer dedicated to providing comprehensive pet care solutions.  With a commitment to animal well-being, Petsmart offers a convenient and reliable destination for all pet owners.
+    # blurb: Petsmart is a leading retailer dedicated to providing comprehensive pet care solutions.  With a commitment to animal well-being, Petsmart offers a convenient and reliable destination for all pet owners.
     accomplishments:
       - Achieved a 33% annual growth in revenue and group lesson participation through effective training techniques.
       - Taught group classes and one-on-one private classes to a variety of dog breeds, sizes, and ages.
