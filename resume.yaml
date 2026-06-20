@@ -73,7 +73,9 @@ experience:
     to: present
     title: Self-employed Contractor
     accomplishments:
-      - I did things.
+      - Reduced monthly spend by 5-21% across five AWS cloud environments by removing unused resources and removing extended support costs from end of life database instances.
+      - Engineered and documented multiple major RDS PostgreSQL upgrades to increase the security posture and remove monthly extended support costs.
+      - Augmented development and design of AWS GovCloud FedRAMP High deployment with Claude Code.  Deployed AWS Config, GuardDuty, WAF, Backup services with disaster recovery (DR) components. 
   - company: Petsmart
     from: 06-2023
     to: 01-2024
