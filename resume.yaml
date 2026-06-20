@@ -1,6 +1,6 @@
 ---
 name: Kevin Gangi
-title: Cloud DevOps Engineer<br>Linux Systems Administrator
+title: Cloud Platform Engineer<br>Linux Systems Administrator
 info:
   location: Orlando, FL
   phone: 781-223-8156
@@ -120,26 +120,26 @@ experience:
     accomplishments:
       - Designed and built a TCP/IP-based data center using Ovirt virtualization software in under three months while we kept production environment online.
       - Researched, defined, and optimized database environment into a high performance MySQL environment and taught developers and administrators why we made these changes.
-  - company: Self-Employed
-    from: 06-2013
-    to: 02-2015
-    title: Systems Administrator
-    blurb: Self-employed working contract positions in various environments.
-    accomplishments:
-      - Managed Vmware 4.x infrastructure for developers and QA.
-      - Created a centralized login server and VPN using OpenVPN and 389 Directory server.
-      - Ran a help desk that catered to developers and QA personnel.
-  - company: Vlingo
-    from: 02-2009
-    to: 11-2012
-    title: Operations Systems Administrator
-    blurb: Highest rated voice assistant technology on a mobile phone.  Originally hired to be a Windows/help desk systems administrator and after one year of service, promoted to be a member of the Operations team.
-    accomplishments:
-      - Promoted from IT to Operations team. (CentOS, ~300 servers, 3 on-prem cage locations).
-      - Researched, designed, and built a 12 node Hadoop cluster and worked with developers to move from using MySQL for audit data to using Hadoop for long term storage.  Our MySQL environment would have been overwhelmed, by the 12x load we were expecting, had this task not be completed in a timely manner.
-      - Authored scripts to clean up the storage environment by 30% using Perl.
-      - Redesigned SPOF MySQL environment and instituted multi-master replication for redundancy purposes using MySQL 5.X, 12 servers.
-      - Wrote and designed F5 iRules to meet business needs after application out grew a single server platform.
+  # - company: Self-Employed
+  #   from: 06-2013
+  #   to: 02-2015
+  #   title: Systems Administrator
+  #   blurb: Self-employed working contract positions in various environments.
+  #   accomplishments:
+  #     - Managed Vmware 4.x infrastructure for developers and QA.
+  #     - Created a centralized login server and VPN using OpenVPN and 389 Directory server.
+  #     - Ran a help desk that catered to developers and QA personnel.
+  # - company: Vlingo
+  #   from: 02-2009
+  #   to: 11-2012
+  #   title: Operations Systems Administrator
+  #   blurb: Highest rated voice assistant technology on a mobile phone.  Originally hired to be a Windows/help desk systems administrator and after one year of service, promoted to be a member of the Operations team.
+  #   accomplishments:
+  #     - Promoted from IT to Operations team. (CentOS, ~300 servers, 3 on-prem cage locations).
+  #     - Researched, designed, and built a 12 node Hadoop cluster and worked with developers to move from using MySQL for audit data to using Hadoop for long term storage.  Our MySQL environment would have been overwhelmed, by the 12x load we were expecting, had this task not be completed in a timely manner.
+  #     - Authored scripts to clean up the storage environment by 30% using Perl.
+  #     - Redesigned SPOF MySQL environment and instituted multi-master replication for redundancy purposes using MySQL 5.X, 12 servers.
+  #     - Wrote and designed F5 iRules to meet business needs after application out grew a single server platform.
 projects:
   - link: https://github.com/phrreakk/cybersecurity
     about: Cyber Security Repository
