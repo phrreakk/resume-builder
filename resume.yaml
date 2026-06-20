@@ -61,9 +61,8 @@ education:
     degree: CS50x Certificate
 intro:
   Platform Engineer:
-  - Keen ability to explain highly complex systems to upper management.
+  - Keen ability to explain highly complex systems to senior management.
   - Experienced in systems integration in order to create the best possible foundation for any given project.
-  - Experienced in working with and supporting developers in order to see projects through to completion and continued development.
   Linux Systems Administrator:
   - Experienced with using Ansible to configure and secure different Linux distributions.
   - Experienced in building and maintaining enterprise scale on-prem and cloud environments, understanding the application layer to the system layer to the network layer.
@@ -87,12 +86,10 @@ experience:
     blurb: Deloitte provides industry-leading audit, consulting, tax, and advisory services to many of the world's most admired brands, including 80 percent of the Fortune 500.  I started as an AWS DevOps engineer but grew into the role of Cloud Architect. That role had me involved in DevOps, systems engineering and administration, and security.
     accomplishments:
       - Lead a team of ten on an AWS migration project that achieved its ATO status by setting expectations for work, establishing requirements with clients, and defining sprint plans using Jira, Confluence, and agile methodologies.
-      - Remediated Nessus results to work towards developing a “golden image” for distribution to developers and production environment systems.
       - Lead author of password security guidelines document and disaster recovery document working with the Cyber Security team.
       - Implement security controls and STIGs using Ansible for accreditation (NIST 800-53) in FedRAMP High environment running in AWS GovCloud.
       - Architect lift-and-shift migration plans from legacy applications to AWS environment in GovCloud.
       - Collaborated with legacy application admins to create Ansible automation playbooks/tasks to increase deployment speed.
-      - Worked together with developers to bring two environments to ATO in AWS GovCloud.
   - company: Hitachi Vantara (Pentaho)
     from: 11-2018
     to: 09-2020
@@ -104,7 +101,6 @@ experience:
       - Achieved 33-50% monthly cost savings over the last year through use of Cloudformation scripts and spot instances on AWS account.
       - Launched Openshift 4.1 cluster for build team CI/CD processing using Ansible and Cobbler to bootstrap nodes on RHEV cluster.
       - Designed and implemented business services and servers migration of a TCP/IP network to another floor of the same building.  This process required using different Fortinet firewalls and switches from the original location. 
-      - Created Vault environment using Ansible playbooks for storing secrets, PKI/CA, dynamic AWS IAM user/role creation, and AppRole use cases.
       - Designed and implemented AWS TGW which connected developer environments via Palo Alto firewalls and the BGP networking protocol.  The developer environments were located in FL, MA, CA, Portugal, and multiple AWS accounts.
   - company: Travel Media Group
     from: 11-2016
@@ -144,8 +140,6 @@ experience:
       - Authored scripts to clean up the storage environment by 30% using Perl.
       - Redesigned SPOF MySQL environment and instituted multi-master replication for redundancy purposes using MySQL 5.X, 12 servers.
       - Wrote and designed F5 iRules to meet business needs after application out grew a single server platform.
-      - Implemented Cobbler system to bring Linux systems from bare metal to production ready status in about 15 minutes from six to eight hours.
-      - Worked on and designed various network related tasks involving Cisco Nexus 5Ks, FEX, and 3750Gs.
 projects:
   - link: https://github.com/phrreakk/cybersecurity
     about: Cyber Security Repository
