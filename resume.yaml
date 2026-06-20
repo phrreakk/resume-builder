@@ -11,24 +11,24 @@ info:
   resume: /resume-builder/resume.pdf
 skills:
   Linux: 100
-  Windows: 70
+  Windows: 50
   Cloud: 70
   AWS: 100
   GCP: 30
-  CloudFormation: 100
-  Terraform: 20
+  Ansible: 80
+  Terraform: 75
+  CloudFormation: 50
   Docker: 80
   Kubernetes: 50
   Helm: 25
   git: 75
   TCP/IP: 100
-  CI/CD: 60
+  CI/CD: 50
   Jenkins: 50
   CodeDeploy: 30
   BASH: 30
   Python: 50
-  Ansible: 80
-  Active Directory: 60
+  Active Directory: 30
   Jira: 50
   Virtualization: 100
   Ovirt/RHEV: 80
@@ -37,6 +37,8 @@ skills:
   Hashicorp Vault: 30
   Zabbix: 20
 certifications:
+  - name: Secret security clearance
+    status: active until November 2026
   - name: CompTIA Security+ CE
     status: active until May 2027
   - name: ISC2 Certified in Cybersecurity
@@ -58,7 +60,7 @@ education:
   - institution: Harvard.edu Online
     degree: CS50x Certificate
 intro:
-  DevOps and Platform Engineer:
+  Platform Engineer:
   - Keen ability to explain highly complex systems to upper management.
   - Experienced in systems integration in order to create the best possible foundation for any given project.
   - Experienced in working with and supporting developers in order to see projects through to completion and continued development.
@@ -67,13 +69,24 @@ intro:
   - Experienced in building and maintaining enterprise scale on-prem and cloud environments, understanding the application layer to the system layer to the network layer.
   - Skilled in the setup and maintenance of highly available and redundant systems.
 experience:
+  - company: Petsmart
+    from: 06-2023
+    to: 01-2024
+    title: Dog Trainer
+    blurb: Petsmart is a leading retailer dedicated to providing comprehensive pet care solutions. Customers can find a wide selection of high-quality food, supplies, and services, including grooming and veterinary care options. With a commitment to animal well-being, Petsmart offers a convenient and reliable destination for all pet owners.
+    accomplishments:
+      - Achieved a 33% annual growth in revenue and group lesson participation through effective training techniques.
+      - Taught group classes and one-on-one private classes to a variety of dog breeds, sizes, and ages.
+      - Guided each class with an emphasis on the safety and comfort for pets and pet parents.
+      - Defined and maintained group/private class schedule using Excel, one quarter at a time.
+      - Uncovered pet parent's needs and guided them to a solution that is comfortable for the pet parent as well as for the dog.
   - company: Deloitte
     from: 10-2020
     to: 10-2022
     title: Senior Solutions Specialist, Cloud Architect
     blurb: Deloitte provides industry-leading audit, consulting, tax, and advisory services to many of the world's most admired brands, including 80 percent of the Fortune 500.  I started as an AWS DevOps engineer but grew into the role of Cloud Architect. That role had me involved in DevOps, systems engineering and administration, and security.
     accomplishments:
-      - Lead a team of ten on an AWS migration project that involved setting expectations for work, establishing requirements with clients, and defining sprint plans using Jira, Confluence, and agile methodologies.
+      - Lead a team of ten on an AWS migration project that achieved its ATO status by setting expectations for work, establishing requirements with clients, and defining sprint plans using Jira, Confluence, and agile methodologies.
       - Remediated Nessus results to work towards developing a “golden image” for distribution to developers and production environment systems.
       - Lead author of password security guidelines document and disaster recovery document working with the Cyber Security team.
       - Implement security controls and STIGs using Ansible for accreditation (NIST 800-53) in FedRAMP High environment running in AWS GovCloud.
