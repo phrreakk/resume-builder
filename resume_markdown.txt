@@ -14,7 +14,7 @@ Accomplished Cloud Platform Engineer and Linux Systems Administrator with extens
 * **Infrastructure as Code (IaC) & Automation:** Ansible, Terraform, CloudFormation, Helm
 * **Containers & Orchestration:** Docker, Kubernetes, OpenShift 4.1
 * **CI/CD & DevOps Tools:** Jenkins, AWS CodeDeploy, AWS CodePipeline, Git, Jira, Confluence
-* **Operating Systems & Networking:** Enterprise Linux (RHEL), Windows Server, TCP/IP, BGP, Transit Gateway (TGW)
+* **Operating Systems & Networking:** Red Hat Enterprise Linux (RHEL), Windows Server, TCP/IP, BGP, Transit Gateway (TGW)
 * **Security & Monitoring:** HashiCorp Vault, AWS GuardDuty, AWS Config, AWS WAF, Security STIGs, Zabbix
 * **Databases:** PostgreSQL, MySQL, Hadoop
 
@@ -31,32 +31,36 @@ Accomplished Cloud Platform Engineer and Linux Systems Administrator with extens
 
 ### **PROFESSIONAL EXPERIENCE**
 
-#### **NEUROFLOW** | *Self-employed Cloud Consultant & Contractor*  **Jul-2025 – Present**
-* **Cloud Modernization & Optimization:** Engineered and successfully executed major RDS PostgreSQL database upgrades, enhancing system security posture while systematically eliminating legacy extended support costs.
+#### **NEUROFLOW** | *Self-employed Cloud Consultant & Contractor*  
+**Jul-2025 –- Present**
+* **Cloud Modernization & Optimization:** Engineered and successfully executed major RDS PostgreSQL database upgrades, enhancing system security posture while systematically eliminating AWS extended support costs.
 * **Cost Management:** Reduced monthly cloud spend by 5% to 21% across five distinct AWS environments through comprehensive resource rationalization and decommissioning unused infrastructure.
-* **GovCloud & Compliance Integration:** Augmented the design and delivery of an AWS GovCloud FedRAMP High deployment using Claude Code to accelerate pipeline efficiency. 
+* **GovCloud & Compliance Integration:** Augmented the design and delivery of an AWS GovCloud FedRAMP High deployment using Claude Code to accelerate pipeline efficiency and increasing security posture. 
 * **Resilience & Security Operations:** Deployed and configured robust security architectures including AWS Config, GuardDuty, WAF, and AWS Backup services with dedicated disaster recovery (DR) components.
 
-#### **DELOITTE** | *Senior Solutions Specialist, Cloud Architect*  **Oct-2020 – Oct-2022**
+#### **DELOITTE** | *Senior Solutions Specialist, Cloud Architect*  
+**Oct-2020 -– Oct-2022**
 * **Team Leadership:** Led an engineering team of 10 through a complex AWS cloud migration project, successfully defining sprint plans, technical requirements, and cross-functional expectations using Jira and Agile methodologies to achieve Authority to Operate (ATO) status.
 * **FedRAMP & NIST Compliance:** Automated the implementation of technical security controls and DISA STIGs using Ansible to achieve strict NIST 800-53 compliance within an AWS GovCloud FedRAMP High environment.
 * **Migration Architecture:** Architected robust lift-and-shift migration paths translating legacy enterprise applications into highly secure, modern cloud instances within GovCloud.
 * **Automation:** Collaborated closely with legacy system administrators to design and deploy automated Ansible playbooks, drastically accelerating environment provisioning and code delivery speeds.
 * **Security & Continuity Planning:** Served as the lead author for enterprise password security guidelines and comprehensive Disaster Recovery (DR) frameworks in close coordination with the corporate Cyber Security team.
 
-#### **HITACHI VANTARA (PENTAHO)** | *Cloud Engineer / DevOps Engineer*  **Nov-2018 – Sep-2020**
+#### **HITACHI VANTARA (PENTAHO)** | *Cloud Engineer / DevOps Engineer*  
+**Nov-2018 – Sep-2020**
 * **Enterprise Automation:** Championed Ansible as the standard enterprise automation platform, developing over 25 comprehensive playbooks to bridge and manage RHEV, oVirt, VMware clusters, and AWS environments.
 * **Secure Configuration Management:** Maintained a centralized, single point of truth in GitHub by leveraging Ansible to enforce infrastructure security best practices across EC2 instances, S3 buckets, and Security Groups.
 * **Cost Optimization:** Decreased infrastructure spending by 33% to 50% utilizing customized CloudFormation templates paired with AWS Spot Instances.
 * **Container Platform Engineering:** Bootstrapped and launched an OpenShift 4.1 cluster using Ansible and Cobbler to optimize CI/CD builds across RHEV cluster nodes.
 * **Advanced Networking:** Designed and deployed AWS Transit Gateway (TGW) infrastructures to connect distributed global development environments across FL, MA, CA, Portugal, and multiple distinct AWS accounts using Palo Alto firewalls and BGP routing protocols.
 
-#### **TRAVEL MEDIA GROUP** | *AWS Systems Administrator / DevOps Engineer*  **Nov-2016 – Nov-2018**
+#### **TRAVEL MEDIA GROUP** | *AWS Systems Administrator / DevOps Engineer*  
+**Nov-2016 – Nov-2018**
 * **High-Availability Architecture:** Transitioned a legacy static PHP/FPM application environment into an enterprise-grade, highly available, and auto-scaling production infrastructure built natively on AWS best practices.
 * **Infrastructure as Code:** Overhauled and modularized environment architectures by writing over 50 reproducible and reusable CloudFormation templates.
 * **CI/CD Pipeline Development:** Designed and built automated QA environments utilizing AWS CodeDeploy and CodePipeline to trigger continuous code integration directly from GitHub Enterprise to QA instances, dropping deployment times from days to minutes.
 * **Elastic Application Hosting:** Engineered a massively scalable, multi-tenant WordPress platform managing over 500 active sites across QA and Production using EC2, EFS, Auto Scaling Groups (ASGs), and Elastic Load Balancers (ELBs).
-* **Cost Engineering:** Collaborated with development squads to refactor synchronous, continuous processes into an elastic, event-driven architecture using AWS Spot Instances and SQS, realizing an 83% reduction in operating costs.
+* **Cost Engineering:** Collaborated with development team to refactor long-running, synchronous, and continuous processes into an elastic, event-driven architecture using AWS Spot Instances and SQS, realizing an 83% reduction in operating costs.
 
 > *Note: Additional technical and leadership experience includes systems administration roles focused on high-performance MySQL environments and oVirt virtualization data center builds, as well as professional client-facing operations.*
 
@@ -65,3 +69,4 @@ Accomplished Cloud Platform Engineer and Linux Systems Administrator with extens
 ### **EDUCATION & TRAINING**
 * **Associate's Degree in Computer Networking Systems** | ITT Technical Institute
 * **CS50x Certificate** | Harvard.edu Online
+
